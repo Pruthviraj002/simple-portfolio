@@ -1,0 +1,155 @@
+/* #icon1{
+    height: 5rem;
+    width: 5rem;
+    background-color: red;
+    color: black;
+
+} */
+#Services.icon{
+    background-color: red;
+}
+
+.menu{
+    border: 1px solid black;
+    border-radius: 0.8rem;
+    padding: 0.5rem;
+}
+
+nav  .info:hover{
+    color: rgba(255, 255, 0, 0.846);
+    transition: 2s;
+}
+nav #info1:hover,#info2:hover,#info3:hover,#info4:hover,#info5:hover{
+    color: rgba(255, 255, 0, 0.846);
+    transition: 2s;
+}
+#about .logo{
+    border-radius: 50%;
+    height: 10rem;
+    width: 10rem; 
+    border-radius: 0.4rem 0.4rem 0.4rem 0.4rem #131313;
+    animation-name: sagar1;
+    animation-duration: 2s;
+    animation-iteration-count: 5;
+}
+
+/* @keyframes sagar1 {
+from{
+
+}   
+to{
+    transform: rotate(360deg);
+} 
+} */
+
+ #about .logo:hover{
+    /* transform: rotate(45deg); */
+    transform: translate(50px, 100px);
+    /* transform: skew(20deg,10deg); */
+    transition: 2s;
+}
+
+ #team .profile:hover{
+    transform: scale(1.5);
+    transition: 2s; 
+ } 
+
+
+#team .profile
+{
+    border-radius: 50%;
+animation-name: sagar;
+animation-duration: 3s;
+animation-iteration-count:5;
+}
+
+
+
+@keyframes sagar {
+    from{
+
+    }
+    to{
+        /* transform: skew(20deg,10deg); */
+        /* transform: translateX(1000px); */
+        /* transform: scale(1.2); */
+        transform: rotate(45deg);
+        animation-iteration-count: infinite;
+        animation-delay: 1s;
+        animation-timing-function: cubic-bezier(0,0,0.96);
+        animation-duration: reverse;
+        /* animation: sagar 1s infinite ease-in-out fill-mode; */
+    }
+    
+}
+
+/* #about .logo{ */
+    /* animation-name: sagar1;
+    animation-duration: 3s;
+} */
+
+/* @keyframes sagar1 {
+    from{
+
+    }
+    to{
+        /* transform: skew(20deg,10deg);    
+          */
+          
+    /* } */
+    
+/* } */
+
+
+
+
+/* #about #logo1{
+    border-radius: 50%;
+    height: 10rem;
+    width: 10rem; */
+/* } */
+
+#team img{
+    border-radius: 50%;
+    height: 15rem;
+    width: 15rem;
+    border: 2px solid aquamarine;
+    border-radius: 0.4rem 0.4rem 0.4rem 0.4rem #131313;
+     /* transition: red 2s ease, scale(1.5) 2s ease; */
+    /* transform: skew(10deg, 20deg); */
+}
+
+#hero h1,h4{
+    color: black;
+}
+#hero h1:hover,h4:hover{
+    color:rgba(255, 255, 0, 0.846);
+    transition: 2s;
+
+}
+
+
+#portfolio .cardimg{
+    box-shadow: 0.4rem 0.4rem 0.4rem 0.4rem #131313 ;
+    
+}
+#portfolio .cardimg:hover{
+    /* transform: skew(10deg, 20deg); */
+    transform: rotate(45deg);
+}
+
+/* textarea, input{
+    border-radius: 20%;
+    
+} */
+
+
+@media screen and (max-width:426px) {
+
+    #hero h1,h4{
+        font-size: 1.3rem !important;
+    }
+    
+}
+
+
